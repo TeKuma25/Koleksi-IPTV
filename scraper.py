@@ -174,7 +174,7 @@ def update_playlist(input_m3u: str, country_code: str = "id", max_workers: int =
 
 if __name__ == "__main__":
     import sys
-    targets = [("id.m3u", "id"), ("uk.m3u", "uk")]
+    targets = [("id.m3u", "id")]
     if len(sys.argv) > 2:
         targets = [(sys.argv[1], sys.argv[2])]
     elif len(sys.argv) == 2:
