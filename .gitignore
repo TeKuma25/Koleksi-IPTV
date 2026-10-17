@@ -1,0 +1,41 @@
+# AI maintenance & agent workspace
+.agents/
+.ai/
+ai_tools/
+prompts/
+notes/
+*.local.md
+
+# IDE & Editor settings
+.vscode/
+.idea/
+.gemini/
+*.code-workspace
+
+# Environment & Credentials
+.env
+.env.*
+*.env
+credentials.json
+token.json
+tokens.json
+secrets/
+
+# Python cache & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+
+# Temporary & Log files
+*.log
+*.tmp
+*.temp
+output_*.m3u
+playlist_output*.m3u
+report_*.json
